@@ -1,0 +1,20 @@
+[user]
+	name = Ertaç Paprat
+	email = epaprat@gmail.com
+[color]
+    ui = true
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+[core]
+	excludesfile = /Users/ertac/.gitignore_global
+    editor = vim
+[merge]
+    tool = vimdiff
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
