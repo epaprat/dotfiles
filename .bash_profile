@@ -18,6 +18,3 @@ alias mongod='mongod --dbpath ~/Projects/mongodb/data/db/'
 export PATH="/usr/local/heroku/bin:$PATH"
 
 test -r /sw/bin/init.sh && . /sw/bin/init.sh
-
-tmux
-zsh
